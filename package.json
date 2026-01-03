@@ -1,0 +1,29 @@
+{
+  "name": "lost-found-pwa",
+  "version": "1.0.0",
+  "description": "Multi-tenant Lost & Found Progressive Web App with AI matching and real-time analytics",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "multer": "^1.4.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "@vitejs/plugin-react": "^4.0.4"
+  },
+  "keywords": ["lost-found", "pwa", "serverless", "multi-tenant", "ai-matching"],
+  "author": "Office Agent",
+  "license": "MIT"
+}
